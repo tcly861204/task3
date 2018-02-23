@@ -11,16 +11,19 @@
   "dependencies": {
     "autoprefixer": "^7.2.5",
     "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
     "babel-polyfill": "^6.26.0",
     "babel-preset-stage-0": "^6.24.1",
     "co": "^4.6.0",
     "cssnext": "^1.8.4",
     "express": "^4.16.2",
+    "extract-text-webpack-plugin": "^3.0.2",
     "gulp": "^3.9.1",
     "gulp-minify-css": "^1.2.4",
     "gulp-postcss": "^7.0.1",
     "gulp-stylus": "^2.7.0",
     "gulp-uglify": "^3.0.0",
+    "html-webpack-plugin": "^2.30.1",
     "jasmine-core": "^2.8.0",
     "karma": "^2.0.0",
     "karma-chrome-launcher": "^2.2.0",
@@ -37,7 +40,9 @@
     "selenium-standalone": "^6.12.0",
     "selenium-webdriver": "^4.0.0-alpha.1",
     "supertest": "^3.0.0",
-    "systemjs": "^0.20.19"
+    "systemjs": "^0.20.19",
+    "webpack": "^3.11.0",
+    "webpack-livereload-plugin": "^1.0.0"
   },
   "devDependencies": {
     "babel-preset-es2015": "^6.24.1",

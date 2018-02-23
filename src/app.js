@@ -15,6 +15,7 @@ import CONFIG from './config/config';
 
 const app = new Koa();
 
+
 //初始化路由设置
 initController.init(app,router);
 
